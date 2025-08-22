@@ -1,6 +1,6 @@
 import express from "express";
 import db from "../dbconnection/dbconnection.js";
-import { list } from "postcss";
+
 const app = express();
 
 const haversineDistance = (lat1, lon1, lat2, lon2) => {
